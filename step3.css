@@ -1,0 +1,144 @@
+@font-face {
+    font-family:netflix-font2  ;
+    src: url(./NetflixSansBold.ttf);
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-y: scroll;
+    overflow-x:hidden;
+
+}
+.image-logo{
+    width: 13%;
+    cursor: pointer;
+}
+
+.main{
+    width: 130%; 
+    height: 50vh;
+    display: flex;
+    flex-direction: column ;    
+    justify-content: center;
+    /* align-items:center; */
+    text-align: left;
+    padding-left: 210px;}
+
+.main-title-cont1{
+    width: 50%;
+    color: rgb(51,51,51);
+    
+   
+}
+.main-title1{
+    width: 100%;
+    font-size:2em;
+    /* text-align: center; */
+    margin-bottom: 14px;
+    font-family: netflix-font;
+    line-height: 1;
+    font-weight: bold;
+    font-weight: 700;
+    /* padding-top: 10px; */
+    margin-top: 2px;
+   
+}
+
+.pagenum{
+    color: rgb(51,51,51);
+    font-family:netflix-font ;
+    font-weight: lighter;
+    font-size :0.75em;
+    /* padding-bottom: 5px; */
+    margin-top: 2px;
+    margin-bottom: 2px;
+   
+    
+    
+}
+.signin-button2{
+    /* background-color: #e50912 ; */
+    color: rgb(51,51,51);
+    font-family: netflix-font;
+    font-weight: lighter;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+    font-size: 1.25em;
+    
+} 
+
+
+.nextbutton{
+    background-color :#e50912 ;
+    
+    color:rgb(255,216,164);
+    font-family:netflix-font;
+    font-weight: lighter;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-size: 1.2em;
+    width: 414px;
+
+}
+
+.pagenum2{
+    color: rgb(51,51,51);
+    font-family:netflix-font ;
+    font-weight: lighter;
+    font-size :0.75em;
+    /* padding-bottom: 5px; */
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-bottom: 2px;
+    
+    
+    
+}
+.calltoaction2{
+   background-image:url(Logo1.png);
+    font-family: netflix-font;
+    font-size: 1.2em;
+    font-weight: lighter;
+    margin-bottom: 0px;
+    margin-top: 0px;
+   
+
+}
+ul{
+    margin: 0px;
+    padding: 0;
+    /* width: 20px; */
+    
+    
+   
+}
+li {
+	margin: 0;
+	padding: 10px 0 10px 30px;
+	list-style: none;
+	background-image: url("redcheckmark.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px;
+}
+
+.nextbutton:hover{
+background-color: #e42027;
+
+}
+.signin-button2:hover{
+text-decoration: underline;
+
+}
+p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
